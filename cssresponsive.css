@@ -1,0 +1,644 @@
+body {
+  background-color: #282828;
+}
+.clear {
+  clear: both;
+}
+.header {
+  width: 70%;
+  height: 10vh;
+  margin: auto;
+}
+ul a:last-child {
+  background-color: #cb410b;
+  border-radius: 50px;
+  padding: 1% 3%;
+}
+header {
+  width: 100%;
+}
+ul a {
+  color: #f5f5f5;
+  padding: 2%;
+  font-family: questrial;
+  text-decoration: none;
+}
+ul a:hover {
+  color: #282828;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+}
+#logo {
+  padding-top: 1%;
+  width: 40%;
+  float: left;
+}
+#menu {
+  text-align: right;
+  width: 60%;
+  float: right;
+}
+section {
+  width: 100%;
+  background: url(gamezone.jpg) no-repeat center fixed;
+  background-size: cover;
+  width: 100%;
+}
+.section1 {
+  border-radius: 5px;
+  margin: auto;
+  height: 90vh;
+  width: 90%;
+}
+
+.outdiv1 div {
+  width: 31.2%;
+  margin: 1%;
+  text-align: center;
+  float: left;
+}
+.outdiv1 {
+  width: 70%;
+  margin: auto;
+}
+.outdiv1 h1 {
+  text-align: center;
+  font-family: questrial;
+  font-size: 2em;
+  color: #282828;
+  background-color: #f5f5f5;
+  border-radius: 15px 15px 0 0;
+  padding: 1%;
+  margin-bottom: 0;
+}
+.outdiv1 img {
+  width: 100%;
+  margin-bottom: -1%;
+}
+.outdiv1 p {
+  background-color: #282828;
+  color: #f5f5f5;
+  height: 6em;
+  padding: 5% 2% 0 2%;
+  border-radius: 0 0 15px 15px;
+  margin-top: -1%;
+  font-family: questrial;
+  font-size: 1.5em;
+}
+.outdiv1 a {
+  background-color: orange;
+  padding: 1.5%;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.outdiv1 a::after {
+  content: '\00BB';
+}
+.sec2div2 a::after {
+  content: '\00BB';
+}
+.section2 {
+  width: 100%;
+  height: 65vh;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.outdiv2 {
+  width: 90%;
+  margin: auto;
+}
+.sec2div1 {
+  width: 50%;
+  float: left;
+}
+.sec2div2 {
+  width: 50%;
+  float: left;
+}
+.section2 h1 {
+  text-align: center;
+  font-family: questrial;
+  color: #282828;
+  font-size: 2em;
+  background-color: #f5f5f5;
+  padding-top: 1%;
+}
+
+.sec2div1 img {
+  width: 60%;
+  border-radius: 10px;
+}
+.sec2div1 p {
+  font-family: questrial;
+}
+
+.sec2div2 img {
+  width: 20%;
+  float: left;
+  margin-right: 2%;
+  margin-left: 5%;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+.sec2div2 p,
+.sec2div2 h2 {
+  color: #282828;
+  font-size: 1em;
+  text-align: left;
+  font-family: josefin, sans-serif;
+  margin: 0;
+}
+.sec2div2 span {
+  color: lightgreen;
+  font-family: josefin, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0;
+  float: left;
+}
+.sec2div2 a {
+  text-decoration: none;
+  color: #282828;
+  border: 1px solid grey;
+  margin: 1%;
+}
+#contentdiv {
+  margin-bottom: 4%;
+}
+.section3 {
+  width: 100%;
+  background-color: #aeaeae;
+  margin-top: -1.5%;
+  height: 40vh;
+}
+.outdiv3 {
+  width: 80%;
+  margin: auto;
+}
+.heading h1 {
+  text-align: center;
+  font-family: questrial;
+  padding-top: 5%;
+  margin-bottom: 0;
+  color: #282828;
+}
+.heading p {
+  text-align: center;
+  color: #282828;
+  font-family: questrial;
+  margin-top: 0;
+}
+.outdiv3 .para {
+  text-align: center;
+  margin: 4% 0;
+}
+.sec3box1,
+.sec3box2 {
+  float: left;
+  width: 48%;
+  margin: 1%;
+  background-color: #282828;
+  border-radius: 5px;
+}
+
+.sec3box1 img,
+.sec3box2 img {
+  width: 25%;
+  float: left;
+  border-radius: 5px;
+  margin-right: 2%;
+  padding: 1% 0;
+}
+
+.sec3box1 p,
+.sec3box2 p {
+  text-align: left;
+  font-family: questrial;
+  margin-top: 1%;
+  margin-bottom: 0;
+  color: #f5f5f5;
+}
+.sec3box1 a,
+.sec3box2 a {
+  text-decoration: none;
+  color: #282828;
+  border: 1px solid grey;
+  margin: 1%;
+  float: left;
+  color: #f5f5f5;
+}
+footer {
+  width: 100%;
+}
+.footersec {
+  width: 76%;
+  padding: 4% 0;
+  margin: auto;
+}
+.footersec div {
+  float: left;
+}
+.footdiv1 {
+  width: 50%;
+  color: #f5f5f5;
+  font-family: questrial;
+  font-size: 0.8rem;
+}
+.footdiv2 {
+  width: 24%;
+  font-family: questrial;
+  font-size: 0.8rem;
+  color: #f5f5f5;
+}
+.footdiv2 a {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.footdiv3 {
+  width: 25%;
+  font-family: questrial;
+  font-size: 0.8rem;
+  color: #f5f5f5;
+}
+.footdiv3 input {
+  background-color: #28282b;
+  border: solid 1px #f5f5f5;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 80%;
+}
+.footdiv3 button {
+  font-family: questrial;
+  color: #28282b;
+  background-color: #f5f5f5;
+  border: 1px solid #28282b;
+  border-radius: 5px;
+}
+.copyrightsec {
+  background-color: black;
+  margin: 0;
+}
+#copyrights {
+  font-family: questrial;
+  font-size: 0.8rem;
+  color: grey;
+  margin-left: 14%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+@media only screen and (max-width: 1439px) {
+  .outdiv1 {
+    width: 100%;
+    margin: auto;
+  }
+  .outdiv3 {
+    width: 90%;
+    margin: auto;
+  }
+  .outdiv1 p {
+    margin-top: -1%;
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+  .section2 {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .sec3box1,
+  .sec3box2 {
+    float: left;
+    width: 48%;
+    margin-bottom: 6%;
+    background-color: #282828;
+    border-radius: 5px;
+  }
+  .sec3box1 img,
+  .sec3box2 img {
+    width: 30%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 2%;
+    padding: 2%;
+  }
+  .sec3box1 a,
+  .sec3box2 a {
+    margin-left: 35%;
+    float: none;
+    color: #f5f5f5;
+  }
+  .section3 {
+    width: 100%;
+    background-color: #aeaeae;
+    margin-top: -3%;
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header {
+    width: 90%;
+  }
+  #logo {
+    width: 40%;
+  }
+  .section1 {
+    width: 100%;
+  }
+  .outdiv1 {
+    width: 100%;
+    margin: auto;
+  }
+  .outdiv1 p {
+    margin-top: -1%;
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+  .section2 {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .outdiv2 {
+    width: 100%;
+  }
+  .outdiv3 {
+    width: 80%;
+    margin: auto;
+  }
+  .sec3box1 img,
+  .sec3box2 img {
+    margin-bottom: 2%;
+    width: 30%;
+  }
+  .section3 {
+    width: 100%;
+    background-color: #aeaeae;
+    margin-top: -3%;
+    height: 60vh;
+  }
+  .outdiv3 {
+    width: 80%;
+    margin: auto;
+  }
+  .sec3box1,
+  .sec3box2 {
+    float: none;
+    width: 100%;
+    margin-bottom: 6%;
+    background-color: #282828;
+    border-radius: 5px;
+    padding-bottom: 4%;
+    padding-top: 1%;
+  }
+  .sec3box1 img,
+  .sec3box2 img {
+    width: 20%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 2%;
+    padding: 1%;
+  }
+  .sec3box1 a,
+  .sec3box2 a {
+    margin-left: 35%;
+    float: none;
+    color: #f5f5f5;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .outdiv1 {
+    width: 100%;
+  }
+  #logo {
+    padding-top: 1%;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  #menu {
+    text-align: center;
+    width: 100%;
+    float: none;
+    margin-left: -5%;
+  }
+  ul a {
+    padding: 3%;
+    font-size: 20px;
+  }
+  .header {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+  }
+  .outdiv1 {
+    width: 100%;
+  }
+  .outdiv1 div {
+    width: 45%;
+    border: #f5f5f5 1px solid;
+    border-radius: 15px;
+  }
+  .outdiv1 h1 {
+    margin: 0;
+  }
+  .outdiv1 p {
+    margin-top: -1%;
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+
+  .sec2div1,
+  .sec2div2 {
+    width: 100%;
+    float: none;
+    padding-top: 1%;
+  }
+
+  .section2 {
+    width: 100%;
+    height: 140vh;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .sec2div2 img {
+    width: 30%;
+    float: left;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 5%;
+  }
+  #contentdiv {
+    margin-bottom: 10%;
+  }
+  .section3 {
+    width: 100%;
+    background-color: #aeaeae;
+    margin-top: -3%;
+    height: 60vh;
+  }
+  .outdiv3 {
+    width: 80%;
+    margin: auto;
+  }
+  .sec3box1,
+  .sec3box2 {
+    float: none;
+    width: 95%;
+    margin: 2%;
+    background-color: #282828;
+    border-radius: 5px;
+    padding: 1%;
+  }
+
+  .sec3box1 img,
+  .sec3box2 img {
+    width: 20%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 2%;
+    padding: 0;
+  }
+  .sec3box1 a,
+  .sec3box2 a {
+    margin-left: 35%;
+    float: none;
+    color: #f5f5f5;
+  }
+  .footersec div {
+    float: none;
+  }
+  .footdiv1 {
+    width: 100%;
+  }
+  .footdiv2 {
+    width: 100%;
+    padding-top: 4%;
+  }
+  .footdiv3 {
+    width: 100%;
+    padding-top: 4%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #logo {
+    padding-top: 1%;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  #menu {
+    text-align: center;
+    width: 100%;
+    float: none;
+    margin-left: -5%;
+  }
+  ul a {
+    padding: 1%;
+    font-size: 13px;
+  }
+  .header {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+  }
+  .outdiv1 div {
+    width: 100%;
+    text-align: center;
+    border: #f5f5f5 1px solid;
+    border-radius: 15px;
+    display: inline;
+  }
+  .outdiv1 {
+    width: 100%;
+  }
+
+  .outdiv1 h1 {
+    margin: 0;
+  }
+  .outdiv1 p {
+    margin-top: -1%;
+    margin-bottom: 0;
+  }
+  .outdiv2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .sec2div1,
+  .sec2div2 {
+    width: 100%;
+    float: none;
+    padding-top: 2%;
+  }
+
+  .section2 {
+    width: 100%;
+    height: 130vh;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .sec2div2 img {
+    width: 30%;
+    float: left;
+    margin-bottom: 10%;
+    margin-right: 2%;
+    margin-left: 5%;
+  }
+  #contentdiv {
+    margin-bottom: 10%;
+  }
+  .section3 {
+    width: 100%;
+    background-color: #aeaeae;
+    margin-top: -4%;
+    height: 65vh;
+  }
+  .outdiv3 {
+    width: 80%;
+    margin: auto;
+  }
+  .sec3box1,
+  .sec3box2 {
+    float: none;
+    width: 100%;
+    margin: 1%;
+    background-color: #282828;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  .sec3box1 img,
+  .sec3box2 img {
+    width: 25%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 2%;
+    padding: 1% 0;
+  }
+  .sec3box1 a,
+  .sec3box2 a {
+    margin-left: 4%;
+    float: none;
+    color: #f5f5f5;
+  }
+  .footersec div {
+    float: none;
+  }
+  .footdiv1 {
+    width: 100%;
+  }
+  .footdiv2 {
+    width: 100%;
+    padding-top: 4%;
+  }
+  .footdiv3 {
+    width: 100%;
+    padding-top: 4%;
+  }
+}
